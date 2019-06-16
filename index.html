@@ -7,13 +7,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/><!--Using bootsrap to create this website-->
-    <!--Including all libraries- jquery, popper.js-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--To add fb links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Including all libraries required- jquery, popper.js-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    
      
+</html>
+    
     
     <title>Portfolio website</title>
 </head>
@@ -43,5 +50,67 @@
         </div>
       </nav>
 </div>
+<!--Show Case-->
+<div id="bg-img"></div>
+
+<!--About me-->
+<div id="About">
+    <div class="row">
+        <div class="col">
+            <div id="AboutData">
+                <div class="card bg-white">
+                    <div class="card-title my-5">
+                        <div class="media">
+                            <img src="img/person1.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block"/>
+                            <div class="media-body">
+                                <h3 class="display-4 ml-5"> I'm Manjot Sandhu</h3>
+                                <p class="text-muted ml-5">Developer</p>
+                                <div class="container">
+                                    <table class="table table-responsive ml-3">
+                                        <tr>
+                                            <td class="text-muted">Age</td>
+                                            <td>:</td>
+                                            <td>28 Years Old</td>
+                                        </tr>
+                                        <tr>
+                                                <td class="text-muted">Email</td>
+                                                <td>:</td>
+                                                <td>manjot.sandhu@ymail.com</td>
+                                        </tr>
+                                        <tr>
+                                                <td class="text-muted">Website</td>
+                                                <td>:</td>                                                                                                
+                                                <td>Coming Soon</td>
+                                        </tr>
+                                        <tr>
+                                                <td class="text-muted">Phone</td>
+                                                <td>:</td>                                                                                                
+                                                <td>+1(647)924-0183</td>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Including links in card footer, but not working-->
+                    <div class="card-footer bg-secondary">
+                        <a href="#"><i class="fa fa-facebook fa-2x mx-5"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x mx-5"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x mx-5"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-2x mx-5"></i></a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
 </body>
-</html>
